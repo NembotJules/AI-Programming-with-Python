@@ -43,7 +43,16 @@ sns.barplot(na_counts.index.values, na_counts, color = base_color)
 
 ```
 
-The first argument to the function contains the x-values(column names), the second argument the y-values (our counts)
+The first argument to the function contains the x-values(column names), the second argument the y-values (our counts).
+
+And other way of visualizing qualitative data is by using a pie chart or a donut chart. But it is not the optimal way. 
+
+Most of the time you will probably prefer a barplot over a pie chart, or a donut chart.
+
+But when to use a pie chart or a donut chart??
+
+- Showing how the data is broken down into parts
+- Plotting a small number of slices (two or three)
 
 
 
